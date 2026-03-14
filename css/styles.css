@@ -1,6 +1,6 @@
 body {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/BACKGROUND.jpg);
 
   background-size: cover;
@@ -14,11 +14,14 @@ body {
 
 #descripcion {
   color: blue;
-  font-family: sans-serif;
+  font-family: Montserrat;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
   text-align: center;
+  line-height: 1.3;
+  letter-spacing: 1.5px;
+  text-shadow: #89aefd96 2px 2px 4px;
 }
 
 #link {
@@ -56,10 +59,11 @@ body {
 
 #FormTitulo {
   text-decoration: underline;
-  color: rgb(4, 85, 156);
+  color: rgb(244, 248, 2);
   font-size: 18px;
   font-style: italic;
   text-align: center;
+  line-height: 1.3;
 }
 
 #INGNOMBRE,
